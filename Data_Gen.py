@@ -32,7 +32,7 @@ def calculate_inflation(params):
     run = inf.run()
     
     #constraints
-    if inf.check_Hdot_neg() and (efolds >= 70.) and (dS != None):
+    if inf.check_Hdot_neg() and (efolds >= 80.) and (dS != None):
         valid = True
         
     #if dS != None:
